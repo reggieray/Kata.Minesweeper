@@ -20,13 +20,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="ApprovalScenario2.txt">
+    <None Update="MultipleMinefields.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="MinesweeperTests.ApprovalScenario1.approved.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="ApprovalScenario1.txt">
+    <None Update="SimpleMinefield.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

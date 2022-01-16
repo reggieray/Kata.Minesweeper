@@ -8,10 +8,10 @@ namespace Kata.Minesweeper.Tests
     public class MinesweeperTests
     {
         [Test]
-        [TestCase("ApprovalScenario1")]
-        [TestCase("ApprovalScenario2")]
+        [TestCase("SimpleMinefield")]
+        [TestCase("MultipleMinefields")]
         [UseReporter(typeof(DiffReporter))]
-        public void ApprovalTest1(string inputFilename)
+        public void ScenarioTests(string inputFilename)
         {
             var input = File.ReadLines($"{inputFilename}.txt");
             var minesweeper = new Minesweeper(input);
